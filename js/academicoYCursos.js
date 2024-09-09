@@ -31,7 +31,7 @@ academicoYCursos.innerHTML = `          <div>
                     <h4>Cursos</h4>
                     <h5>Coder House - Actualidad</h5>
                     <span>Curso Full-Stack de Programación Web.</span>
-                    <h5>Coder Aptugo - Mayo 2024 - Agosto 2024</h5>
+                    <h5>Aptugo - Mayo 2024 - Agosto 2024</h5>
                     <span>Curso de Programación Web.</span>
                     <h5>Coder Coder House - Marzo 2024 - Mayo 2024</h5>
                     <span>Curso de Javascript</span>

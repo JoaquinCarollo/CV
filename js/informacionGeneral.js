@@ -17,7 +17,8 @@
       </div> */
 const iconos = document.createElement("div");
 iconos.className = "iconos";
-iconos.innerHTML = `<div>
+iconos.innerHTML = `<h4>Datos de Contacto</h4>
+                    <div>
                     <img
                       src="https://cdn-icons-png.freepik.com/256/455/455705.png?semt=ais_hybrid"
                     /><span>11-2315-0674</span>

@@ -1,5 +1,5 @@
 /*      <div id="fotoDePerfilYTitulo">
-        <img src="./imagenes/WhatsApp Image 2022-12-17 at 1.36.22 PM.jpeg" />
+        <img src="./imagenes/fotoDePerfil.jpg" />
         <div id="titulo">
           <h1>JOAQUIN CAROLLO</h1>
           <h2>ESTUDIANTE DE PROGRAMACIÓN WEB</h2>
@@ -7,7 +7,7 @@
       </div> */
 const fotoDePerfilYTitulo = document.createElement("div");
 fotoDePerfilYTitulo.id = "fotoDePerfilYTitulo";
-fotoDePerfilYTitulo.innerHTML = `        <img src="./imagenes/WhatsApp Image 2022-12-17 at 1.36.22 PM.jpeg" />
+fotoDePerfilYTitulo.innerHTML = `        <img src="./imagenes/fotoDePerfil.jpg" />
         <div id="titulo">
           <h1>JOAQUIN CAROLLO</h1>
           <h2>ESTUDIANTE DE PROGRAMACIÓN WEB</h2>

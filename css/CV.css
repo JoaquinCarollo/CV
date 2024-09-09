@@ -1,17 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+body section {
+  border: black solid;
+  width: 60%;
+}
+body section #fotoDePerfilYTitulo {
+  background-color: rgb(89, 147, 253);
+  display: flex;
+  height: 15rem;
+  width: 100%;
+}
+body section #fotoDePerfilYTitulo img {
+  width: 40%;
+}
+body section #fotoDePerfilYTitulo #titulo {
+  width: 60%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body section #fotoDePerfilYTitulo #titulo h1 {
+  width: 90%;
+  font-size: 30px;
+}
+body section #fotoDePerfilYTitulo #titulo h2 {
+  width: 70%;
+  font-size: 24px;
+}
+body section #botonesDeInformacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+body section #botonesDeInformacion button {
+  background-color: rgb(89, 147, 253);
+  border: white solid 1px;
+  color: white;
+  border-radius: 10px;
+  width: 10rem;
+  height: 10rem;
+  font-size: 20px;
+}
+body section #botonesDeInformacion button:hover {
+  background-color: white;
+  border: rgb(89, 147, 253) solid 1px;
+  color: rgb(89, 147, 253);
+}
+
 @media (min-width: 360px) and (max-width: 600px) {
-  section {
+  body section {
+    border: none;
     width: 100%;
   }
-  section #fotoDePerfilYTitulo {
+  body section #fotoDePerfilYTitulo {
     background-color: rgb(89, 147, 253);
     display: flex;
     height: 10rem;
     width: 100%;
   }
-  section #fotoDePerfilYTitulo img {
+  body section #fotoDePerfilYTitulo img {
     width: 40%;
   }
-  section #fotoDePerfilYTitulo #titulo {
+  body section #fotoDePerfilYTitulo #titulo {
     width: 60%;
     height: 100%;
     color: white;
@@ -21,15 +87,15 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-  section #fotoDePerfilYTitulo #titulo h1 {
+  body section #fotoDePerfilYTitulo #titulo h1 {
     width: 90%;
     font-size: 20px;
   }
-  section #fotoDePerfilYTitulo #titulo h2 {
+  body section #fotoDePerfilYTitulo #titulo h2 {
     width: 70%;
     font-size: 16px;
   }
-  section #botonesDeInformacion {
+  body section #botonesDeInformacion {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,7 +103,7 @@
     margin-top: 3rem;
     gap: 1rem;
   }
-  section #botonesDeInformacion button {
+  body section #botonesDeInformacion button {
     background-color: rgb(89, 147, 253);
     border: white solid 1px;
     color: white;
@@ -46,28 +112,28 @@
     height: 10rem;
     font-size: 20px;
   }
-  section #botonesDeInformacion button:active {
+  body section #botonesDeInformacion button:active {
     background-color: white;
     border: rgb(89, 147, 253) solid 1px;
     color: rgb(89, 147, 253);
   }
-  section #habilidades {
+  body section #habilidades {
     height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  section #habilidades ul {
+  body section #habilidades ul {
     width: 15rem;
     margin: 1rem;
   }
-  section #habilidades ul h3 {
+  body section #habilidades ul h3 {
     background-color: rgb(89, 147, 253);
     border: white solid 1px;
     color: white;
   }
-  section #volver {
+  body section #volver {
     background-color: blue;
     color: white;
     border: white solid 1px;
@@ -75,7 +141,7 @@
     width: 8rem;
     padding: 0.5rem 0 0.5rem 0;
   }
-  section .iconos {
+  body section .iconos {
     width: 100%;
     height: 80%;
     display: flex;
@@ -83,23 +149,29 @@
     justify-content: space-evenly;
     align-items: center;
   }
-  section .iconos div {
+  body section .iconos h4 {
+    background-color: rgb(89, 147, 253);
+    font-size: 25px;
+    color: white;
+    width: 100%;
+  }
+  body section .iconos div {
     width: 20rem;
     display: flex;
     align-items: center;
   }
-  section .iconos div img {
+  body section .iconos div img {
     border: 1px black solid;
     background-color: rgb(89, 147, 253);
     border-radius: 50px;
     width: 5rem;
     height: 5rem;
   }
-  section .iconos div span {
+  body section .iconos div span {
     font-size: 20px;
     margin-left: 1rem;
   }
-  section #academicoYCursos {
+  body section #academicoYCursos {
     height: 70%;
     display: flex;
     flex-direction: column;
@@ -107,42 +179,36 @@
     align-items: center;
     gap: 2rem;
   }
-  section #academicoYCursos div {
+  body section #academicoYCursos div {
     width: 100%;
   }
-  section #academicoYCursos div h4 {
+  body section #academicoYCursos div h4 {
     font-size: 25px;
     background-color: rgb(89, 147, 253);
     color: white;
   }
-  section #academicoYCursos div h5 {
+  body section #academicoYCursos div h5 {
     font-size: 20px;
   }
-  section #experienciaLaboral {
+  body section #experienciaLaboral {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 70%;
   }
-  section #experienciaLaboral h4 {
+  body section #experienciaLaboral h4 {
     background-color: rgb(89, 147, 253);
     font-size: 25px;
     color: white;
     width: 100%;
   }
-  section #experienciaLaboral div ul h5 {
+  body section #experienciaLaboral div ul h5 {
     font-size: 20px;
   }
-  section #experienciaLaboral div ul li {
+  body section #experienciaLaboral div ul li {
     margin: 0.5rem 0 0.5rem 0;
   }
-}
-* {
-  padding: 0;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  list-style: none;
 }
 
 /*# sourceMappingURL=CV.css.map */
